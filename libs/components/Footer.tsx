@@ -1,8 +1,8 @@
 import { Box, Stack } from "@mui/material";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined"
-import TelegramIcon from "@mui/icons-material/Telegram"
-import InstagramIcon from "@mui/icons-material/Instagram"
-import TwitterIcon from "@mui/icons-material/Twitter"
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 const Footer = () => {
   return (
@@ -32,6 +32,13 @@ const Footer = () => {
           </Box>
         </Stack>
         <Stack className={"right"}>
+          <Box component={"div"} className={"top"}>
+            <strong>keep yourself up to date</strong>
+            <div>
+              <input type="text" placeholder={"Your Email"} />
+              <span>Subscribe</span>
+            </div>
+          </Box>
           <Box component={"div"} className={"bottom"}>
             <div>
               <strong>Popular Search</strong>
@@ -63,6 +70,5 @@ const Footer = () => {
     </Stack>
   );
 };
-
 
 export default Footer;
