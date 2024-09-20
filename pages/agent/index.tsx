@@ -2,12 +2,12 @@ import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import { Container, Stack } from "@mui/material";
 import { NextPage } from "next";
 
-const PropertyList: NextPage = () => {
+const Agent: NextPage = () => {
   return (
     <div style={{ margin: "20px 0" }}>
-      <Stack className="container">PROPERTY LIST</Stack>
+      <Stack className="container">Agent LIST</Stack>
     </div>
   );
 };
 
-export default withLayoutBasic(PropertyList);
+export default withLayoutBasic(Agent);
